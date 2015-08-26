@@ -4,6 +4,20 @@ Minimum folder and files structure to kick-start a new Angular.JS Project
 It is supposed to be a simple project structure, without a lot of fluff. Just the bare minimum stuff in order to kick-start a 
 brand new project. 
 
+After cloning the project, for creating its basic dependency files, it should be as simple as:
+
+```
+$ npm install
+$ bower install
+```
+
+Then, for using the UnitTests:
+
+```
+#in case you do not have it globally installed in your computer
+$ node_modules/karma/bin/karma start karma.conf.js
+```
+
 Many things that should otherwise be considered as mandatory for a minimum project, if not in here yet, it will be.
 
 Some of the things that are already in mind, that up to this moment aren't contemplated:
